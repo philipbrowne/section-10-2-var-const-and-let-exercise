@@ -1,0 +1,8 @@
+ES2015 GLOBAL CONSTANTS VERSION: 
+const PI = 3.14;
+
+1.  VAR and LET - With var you can redeclare the variable AND redefine it.  With let, you can re-assign the variable, but not redeclare it.  Let also requires initialization, whereas VAR hoists to the beginning of the script.  Score is also different - Var has scope within code blocks and function.  Let is only within code block.
+2.  VAR you can reassign and redeclare.  Const you can neither reassign nor redeclare the variable.  Similar scope differences as with let.  
+3.  Let and Const follow the same rules as far as scope.  With Let, you can re-assign but not redeclare.  However, with const you cannot reassign the variable once it's been declared.  With let, you can initialize the variable without defining it (ie. let variable)  With const - that will prompt an error saying you have to assign the variable to some value.
+4.  When declaring a variable anywhere in the document, it will initialize the variable as an empty variable at the beginning of the document.  So if you have var chicken = 'stevie' somewhere in the document.  If you console.log(chicken) elsewhere before that assignment, it will output as undefined.  However, if you try to do the same thing with let or const, it will output an initialization error. 
+
